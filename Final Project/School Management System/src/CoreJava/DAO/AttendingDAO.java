@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class AttendingDAO {
-
+// this a dao file
     public List<Attending> getAttending() throws FileNotFoundException{
     	String location="C:\\Users\\Student\\eclipse-workspace\\Final Project\\attending.csv";
 		File f=new File(location);
